@@ -11,7 +11,7 @@ Flask + Hypercorn application for the Fly.io cloud deployment
 2. cd ibx-flask-hypercorn-app
 3. python -m venv venv
 4. .\venv\scripts\activate
-5. pip install flask, hypercorn
+5. pip install flask, asgiref, hypercorn
 6. create app.py and templates
 7. some code
 8. flyctl auth login
