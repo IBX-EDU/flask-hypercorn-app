@@ -2,11 +2,12 @@
 
 Flask + Hypercorn application for the Fly.io cloud deployment
 
-# Components
-- Flask
-- Hypercorn
+# Components:
+- [Flask](https://github.com/pallets/flask) - Python micro framework
+- [Hypercorn](https://github.com/pgjones/hypercorn) - an ASGI and WSGI web server
 
-# Deployment
+# Deployment:
+0. [Fly.io](https://fly.io) - create account
 1. mkdir ibx-flask-hypercorn-app
 2. cd ibx-flask-hypercorn-app
 3. python -m venv venv
@@ -14,7 +15,8 @@ Flask + Hypercorn application for the Fly.io cloud deployment
 5. pip install flask, asgiref, hypercorn
 6. create app.py and templates
 7. some code
-8. flyctl auth login
-9. flyctl launch
-10. flyctl deploy
-11. browse https://ibx-flask-hypercorn-app.fly.dev/
+8. pip freeze > requirements.tx
+9. flyctl auth login
+10. flyctl launch
+11. flyctl deploy
+12. browse https://ibx-flask-hypercorn-app.fly.dev/
