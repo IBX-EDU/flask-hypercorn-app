@@ -2,12 +2,13 @@
 
 Flask + Hypercorn application for the Fly.io cloud deployment
 
-# Components
-- [Flask](https://github.com/pallets/flask): The Python micro framework for building web applications.
-- [Hypercorn](https://github.com/pgjones/hypercorn): Hypercorn is an ASGI and WSGI Server
+# Components:
+- [[Flask](https://github.com/pallets/flask) - Python micro framework](https://github.com/pallets/flask): The Python micro framework for building web applications.
+- [Hypercorn](https://github.com/pgjones/hypercorn): [Hypercorn](https://github.com/pgjones/hypercorn) - an ASGI and WSGI web server is an ASGI and WSGI Server
 - [Fly.io](https://fly.io): Fly is a platform for running full stack apps and databases.
 
-# Deployment
+# Deployment:
+0. [Fly.io](https://fly.io) - create account
 1. mkdir ibx-flask-hypercorn-app
 2. cd ibx-flask-hypercorn-app
 3. python -m venv venv
