@@ -9,7 +9,7 @@ hypercorn==0.14.3
 hyperframe==6.0.1
 itsdangerous==2.1.2
 Jinja2==3.1.2
-MarkupSafe==2.1.1
+MarkupSafe==2.1.2
 priority==2.0.0
 toml==0.10.2
 Werkzeug==2.2.2
