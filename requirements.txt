@@ -2,7 +2,7 @@ asgiref==3.7.2
 blinker==1.6.2
 click==8.1.7
 colorama==0.4.6
-Flask==2.3.3
+Flask==3.0.0
 h11==0.14.0
 h2==4.1.0
 hpack==4.0.0
